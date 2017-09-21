@@ -1,6 +1,6 @@
 List of M49 regions
 ============
-![codecov](https://img.shields.io/bower/v/m49-regions.svg) [![codecov](https://img.shields.io/npm/v/m49-regions.svg)](https://www.npmjs.com/package/m49-regions) [![codecov](https://codecov.io/gh/fabulator/m49-regions/branch/master/graph/badge.svg)](https://codecov.io/gh/fabulator/m49-regions) [![codecov](https://travis-ci.org/fabulator/m49-regions.svg?branch=master)](https://travis-ci.org/fabulator/m49-regions)
+![codecov](https://img.shields.io/bower/v/m49-regions.svg) [![codecov](https://img.shields.io/npm/v/m49-regions.svg)](https://www.npmjs.com/package/m49-regions) [![codecov](https://travis-ci.org/fabulator/m49-regions.svg?branch=master)](https://travis-ci.org/fabulator/m49-regions)
 
 This library constains list of M49 regions based on United Nations standard - https://unstats.un.org/unsd/methodology/m49/
 
