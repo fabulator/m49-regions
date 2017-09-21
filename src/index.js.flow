@@ -1,0 +1,10 @@
+// @flow
+type Region = {
+    code: string,
+    name: string,
+    sub?: Array<Region>,
+}
+
+declare module 'm49-regions' {
+    declare var exports: Array<Region>;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "m49-regions",
+  "description": "List of regions based M49 Standard.",
+  "main": "dist/m49-regions.js",
+  "authors": [
+    "Michal Ozogan <michal@ozogan.eu>"
+  ],
+  "repository": "https://github.com/fabulator/m49-regions.git",
+  "license": "Apache-2.0",
+  "keywords": [
+    "regions",
+    "stamdard"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "karma.conf.js",
+    "package.json",
+    "rollup.js",
+    ".travis.yml"
+  ]
+}
