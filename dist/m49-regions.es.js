@@ -3,7 +3,7 @@ var regions$1 = [{
   "name": "World",
   "sub": [{
     "code": "009",
-    "name": "Europe",
+    "name": "Oceania",
     "sub": [{
       "code": "053",
       "name": "Australia and New Zealand"
