@@ -5,6 +5,8 @@ type Region = {
     sub?: Array<Region>,
 }
 
+type Regions = Array<Region>;
+
 declare module 'm49-regions' {
-    declare var exports: Array<Region>;
+    declare export default Regions;
 }
