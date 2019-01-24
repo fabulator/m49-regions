@@ -12,3 +12,6 @@ dev
 flow-typed
 tests_results
 tests
+.huskyrc.js
+commitlint.config.js
+tsconfig.json
