@@ -1,11 +1,11 @@
 declare module '*.json' {
-    type Region = {
+    interface Region {
         code: string,
         name: string,
-        sub: Array<Region>,
-    };
+        sub: Region[],
+    }
 
-    const regions: Array<Region>;
+    const regions: Region[];
 
     export default regions;
 }
