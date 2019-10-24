@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] 2019-10-24
+### Changed
+- [c8c40a3](https://github.com/fabulator/m49-regions/commit/c8c40a368d0b07dc29419c8c38618b0615f97f4f) Update dev dependency @socifi/rollup-config to ^2.2.2
+
 ## [1.1.0] 2019-10-24
 ### Changed
 - [fe380a9](https://github.com/fabulator/m49-regions/commit/fe380a95641d8446cc8995d5b3a65206e41ec6ef) Update dependencies.
