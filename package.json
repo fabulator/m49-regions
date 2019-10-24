@@ -1,43 +1,44 @@
 {
-  "name": "m49-regions",
-  "version": "1.0.0",
-  "description": "List of regions based M49 Standard.",
-  "keywords": [
-    "regions",
-    "stamdard"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fabulator/m49-regions.git"
-  },
-  "license": "Apache-2.0",
-  "author": {
-    "name": "Michal Ozogan",
-    "email": "michal@ozogan.eu",
-    "url": "https://github.com/fabulator"
-  },
-  "homepage": "https://github.com/fabulator/m49-regions",
-  "main": "dist/index.js",
-  "jsnext:main": "dist/index.esm.js",
-  "module": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
-  "devDependencies": {
-    "@socifi/babel-config": "^0.7.0",
-    "@socifi/eslint-config": "^2.10.0",
-    "@socifi/jest-config": "^2.3.1",
-    "@socifi/rollup-config": "^2.2.1",
-    "@types/node": "^12.11.1",
-    "core-js": "^3.3.2"
-  },
-  "scripts": {
-    "lint": "eslint --ext .ts ./src ./tests",
-    "lint:export": "npm run lint -- -o ./tests_results/checkstyle/js-checkstyle.xml -f checkstyle",
-    "tsc": "tsc",
-    "build": "rollup --config ./rollup.config.js",
-    "develop": "tsc --emitDeclarationOnly false --watch",
-    "test": "jest",
-    "test:build": "npm run test -- --config jest.config.build.js",
-    "test:all": "npm run lint && npm run tsc && npm run test",
-    "prepublishOnly": "npm run build && npm run tsc && npm run test:build"
-  }
+    "name": "m49-regions",
+    "version": "1.0.0",
+    "description": "List of regions based M49 Standard.",
+    "keywords": [
+        "regions",
+        "stamdard"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fabulator/m49-regions.git"
+    },
+    "license": "Apache-2.0",
+    "author": {
+        "name": "Michal Ozogan",
+        "email": "michal@ozogan.eu",
+        "url": "https://github.com/fabulator"
+    },
+    "homepage": "https://github.com/fabulator/m49-regions",
+    "main": "dist/index.js",
+    "jsnext:main": "dist/index.esm.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts",
+    "devDependencies": {
+        "@socifi/babel-config": "^1.0.0",
+        "@socifi/commitlint-config": "^1.1.0",
+        "@socifi/eslint-config": "^2.10.0",
+        "@socifi/jest-config": "^2.4.1",
+        "@socifi/rollup-config": "^2.2.1",
+        "semantic-release-config-fabulator": "^1.3.2"
+    },
+    "scripts": {
+        "lint": "eslint --ext .ts ./src ./tests",
+        "lint:export": "npm run lint -- -o ./tests_results/checkstyle/js-checkstyle.xml -f checkstyle",
+        "tsc": "tsc",
+        "build": "rollup --config ./rollup.config.js",
+        "develop": "tsc --emitDeclarationOnly false --watch",
+        "test": "jest",
+        "test:build": "npm run test -- --config jest.config.build.js",
+        "test:all": "npm run lint && npm run tsc && npm run test",
+        "prepublishOnly": "npm run build && npm run tsc && npm run test:build",
+        "release": "semantic-release"
+    }
 }
