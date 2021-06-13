@@ -1,6 +1,15 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.3.0 (2021-06-13)
+### Fixed
+- [4f83d53](https://github.com/fabulator/m49-regions/commit/4f83d5370c17fb8b10efe5e7806fce50945ff670) Update lock for security updated
+
+### Changed
+- [c8d2b87](https://github.com/fabulator/m49-regions/commit/c8d2b871ec487286d5b4606d079a328d43123213) Update dev dependency semantic-release-config-fabulator to v2  (#89)
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+
 ## [1.2.0] 2019-10-24
 ### Changed
 - [c8c40a3](https://github.com/fabulator/m49-regions/commit/c8c40a368d0b07dc29419c8c38618b0615f97f4f) Update dev dependency @socifi/rollup-config to ^2.2.2
